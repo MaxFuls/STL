@@ -1,0 +1,2 @@
+/usr/bin/ar qc libDescriptor.a CMakeFiles/Descriptor.dir/source/Descriptor.cpp.o
+/usr/bin/ranlib libDescriptor.a
