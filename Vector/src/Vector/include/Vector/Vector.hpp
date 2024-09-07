@@ -123,38 +123,22 @@ class Vector{
       AllocTraits::deallocate(alloc_, storage_, capacity_);
     }
 
-    Vector& operator=(const Vector& other) {
-      if(other == *this) return *this;
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      // if(AllocTraits::propagate_on_container_copy_assignment::value){
-      //   auto OldAlloc = alloc_;
-      //   auto TmpVector = Vector(other.cbegin(), other.cend(), other.alloc_);
-      //   swap(TmpVector);
-      //   if(!AllocTraits::is_always_equal::value && alloc_ != other.get_allocator()){
-      //     TmpVector.alloc_ = OldAlloc;
-      //     alloc_ = other.alloc_;
-      //   }
-      // } else {
-      //   auto TmpVector = Vector(other.cbegin(), other.cend(), alloc_);
-      //   swap(TmpVector);
-      // }
-      // return *this;
-    }
+    // Vector& operator=(const Vector& other) {
+    //   if(other == *this) return *this;
+    // if(AllocTraits::propagate_on_container_copy_assignment::value){
+    //   auto OldAlloc = alloc_;
+    //   auto TmpVector = Vector(other.cbegin(), other.cend(), other.alloc_);
+    //   swap(TmpVector);
+    //   if(!AllocTraits::is_always_equal::value && alloc_ != other.get_allocator()){
+    //     TmpVector.alloc_ = OldAlloc;
+    //     alloc_ = other.alloc_;
+    //   }
+    // } else {
+    //   auto TmpVector = Vector(other.cbegin(), other.cend(), alloc_);
+    //   swap(TmpVector);
+    // }
+    // return *this;
+    // }
     
     Vector& operator=(Vector&& other)
       noexcept(AllocTraits::propogate_on_container_move_assignment::value || AllocTraits::is_always_equal::value) {

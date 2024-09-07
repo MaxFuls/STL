@@ -361,4 +361,3 @@ class List{
 };
 
 #endif
-// static_assert(std::bidirectional_iterator<List<int>::iterator>);
