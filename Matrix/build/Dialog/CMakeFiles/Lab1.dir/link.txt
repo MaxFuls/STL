@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/Lab1.dir/source/main.cpp.o -o Lab1  ../Matrix/libMatrix.a ../Array/libArray.a ../Utility/libUtility.a 

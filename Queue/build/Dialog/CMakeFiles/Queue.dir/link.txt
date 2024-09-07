@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/Queue.dir/source/main.cpp.o -o Queue  ../Descriptor/libDescriptor.a 

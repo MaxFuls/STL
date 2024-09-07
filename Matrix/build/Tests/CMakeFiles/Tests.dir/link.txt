@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/Tests.dir/source/test.cpp.o -o Tests  ../Matrix/libMatrix.a ../Array/libArray.a 
